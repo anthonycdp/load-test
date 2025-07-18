@@ -1,0 +1,48 @@
+{
+  "name": "k6-performance-testing",
+  "version": "1.0.0",
+  "description": "Projeto de testes de performance com k6 demonstrando domínio em testes não-funcionais",
+  "main": "index.js",
+  "scripts": {
+    "test:load": "k6 run --out html=results/load-test-report.html --out json=results/load-test-results.json scripts/load-tests/load-test.js",
+    "test:stress": "k6 run --out html=results/stress-test-report.html --out json=results/stress-test-results.json scripts/stress-tests/stress-test.js",
+    "test:spike": "k6 run --out html=results/spike-test-report.html --out json=results/spike-test-results.json scripts/spike-tests/spike-test.js",
+    "test:multi": "k6 run --out html=results/multi-endpoint-report.html --out json=results/multi-endpoint-results.json scripts/multi-endpoint-test.js",
+    "test:all": "npm run test:load && npm run test:stress && npm run test:spike && npm run test:multi",
+    "test:load:verbose": "k6 run --verbose --out html=results/load-test-report.html --out json=results/load-test-results.json --out csv=results/load-test-results.csv scripts/load-tests/load-test.js",
+    "test:stress:verbose": "k6 run --verbose --out html=results/stress-test-report.html --out json=results/stress-test-results.json --out csv=results/stress-test-results.csv scripts/stress-tests/stress-test.js",
+    "test:spike:verbose": "k6 run --verbose --out html=results/spike-test-report.html --out json=results/spike-test-results.json --out csv=results/spike-test-results.csv scripts/spike-tests/spike-test.js",
+    "test:multi:verbose": "k6 run --verbose --out html=results/multi-endpoint-report.html --out json=results/multi-endpoint-results.json --out csv=results/multi-endpoint-results.csv scripts/multi-endpoint-test.js",
+    "test:load:summary": "k6 run --summary-trend-stats='avg,min,med,max,p(95),p(99),count' scripts/load-tests/load-test.js",
+    "test:stress:summary": "k6 run --summary-trend-stats='avg,min,med,max,p(95),p(99),count' scripts/stress-tests/stress-test.js",
+    "test:spike:summary": "k6 run --summary-trend-stats='avg,min,med,max,p(95),p(99),count' scripts/spike-tests/spike-test.js",
+    "test:multi:summary": "k6 run --summary-trend-stats='avg,min,med,max,p(95),p(99),count' scripts/multi-endpoint-test.js",
+    "clean": "rm -rf results/*.html results/*.json results/*.csv",
+    "setup": "mkdir -p results && echo 'Diretório results criado com sucesso'",
+    "help": "echo 'Comandos disponíveis:\\n- npm run test:load: Teste de carga\\n- npm run test:stress: Teste de stress\\n- npm run test:spike: Teste de pico\\n- npm run test:multi: Teste multi-endpoint\\n- npm run test:all: Todos os testes\\n- npm run clean: Limpar resultados'"
+  },
+  "keywords": [
+    "k6",
+    "performance",
+    "load-testing",
+    "stress-testing",
+    "spike-testing",
+    "api-testing",
+    "quality-assurance"
+  ],
+  "author": "Anthony Coelho <anthonycoelho.dp@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonycdp/load-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anthonycdp/load-test/issues"
+  },
+  "homepage": "https://github.com/anthonycdp/load-test#readme"
+}

@@ -1,0 +1,21 @@
+userId,title,body,category
+1,Test Post 1,This is the first test post,technology
+2,Test Post 2,This is the second test post,business
+3,Test Post 3,This is the third test post,lifestyle
+4,Test Post 4,This is the fourth test post,sports
+5,Test Post 5,This is the fifth test post,entertainment
+6,Test Post 6,This is the sixth test post,health
+7,Test Post 7,This is the seventh test post,education
+8,Test Post 8,This is the eighth test post,travel
+9,Test Post 9,This is the ninth test post,food
+10,Test Post 10,This is the tenth test post,fashion
+1,Advanced Tutorial,How to create advanced tutorials,technology
+2,Business Strategy,Effective business strategies for 2024,business
+3,Healthy Living,Tips for maintaining a healthy lifestyle,lifestyle
+4,Sports News,Latest updates from the sports world,sports
+5,Movie Reviews,Reviews of the latest blockbuster movies,entertainment
+6,Fitness Tips,Best practices for staying fit,health
+7,Online Learning,Benefits of online education platforms,education
+8,Travel Guide,Complete guide to budget traveling,travel
+9,Recipe Collection,Delicious recipes for every occasion,food
+10,Fashion Trends,Latest fashion trends for this season,fashion

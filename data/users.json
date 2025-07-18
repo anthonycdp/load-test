@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "role": "admin",
+    "preferences": {
+      "theme": "dark",
+      "language": "en",
+      "notifications": true
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "role": "editor",
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "notifications": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "email": "bob.johnson@example.com",
+    "role": "viewer",
+    "preferences": {
+      "theme": "auto",
+      "language": "pt-BR",
+      "notifications": true
+    }
+  },
+  {
+    "id": 4,
+    "name": "Alice Brown",
+    "email": "alice.brown@example.com",
+    "role": "moderator",
+    "preferences": {
+      "theme": "dark",
+      "language": "es",
+      "notifications": true
+    }
+  },
+  {
+    "id": 5,
+    "name": "Charlie Wilson",
+    "email": "charlie.wilson@example.com",
+    "role": "contributor",
+    "preferences": {
+      "theme": "light",
+      "language": "fr",
+      "notifications": false
+    }
+  },
+  {
+    "id": 6,
+    "name": "Diana Davis",
+    "email": "diana.davis@example.com",
+    "role": "admin",
+    "preferences": {
+      "theme": "dark",
+      "language": "de",
+      "notifications": true
+    }
+  },
+  {
+    "id": 7,
+    "name": "Edward Miller",
+    "email": "edward.miller@example.com",
+    "role": "editor",
+    "preferences": {
+      "theme": "auto",
+      "language": "it",
+      "notifications": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "Fiona Garcia",
+    "email": "fiona.garcia@example.com",
+    "role": "viewer",
+    "preferences": {
+      "theme": "light",
+      "language": "pt-BR",
+      "notifications": true
+    }
+  },
+  {
+    "id": 9,
+    "name": "George Martinez",
+    "email": "george.martinez@example.com",
+    "role": "moderator",
+    "preferences": {
+      "theme": "dark",
+      "language": "es",
+      "notifications": true
+    }
+  },
+  {
+    "id": 10,
+    "name": "Helen Anderson",
+    "email": "helen.anderson@example.com",
+    "role": "contributor",
+    "preferences": {
+      "theme": "auto",
+      "language": "en",
+      "notifications": false
+    }
+  }
+]
